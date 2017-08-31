@@ -36,7 +36,7 @@ function hash(input)
 app.get('/hash/input',function(req,res){
     var hashedstring= hash(req,params.input);
     res.send(hashedstring);
-}
+});
 
 
 
